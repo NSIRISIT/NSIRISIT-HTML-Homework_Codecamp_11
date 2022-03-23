@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+<style>
+    table {
+        width: 50%;
+        border-collapse: collapse;
+    }
+    th {
+        border: 1px solid;
+        padding: 8px;
+    }
+    td {
+        border: 1px solid;
+        text-align: left;
+        padding: 8px;
+    }
+
+</style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab_3 Homework</title>
+</head>
+<body>
+<form action="post.html"></form>
+<table>
+    <tr>
+        <th colspan="2">Pizza Shop 2.0</th>
+
+    </tr>
+    <tr>
+        <td>Name</td>
+        <td>
+           <label for="Name"></label>
+           <input type="text" name="Name" id="Name"> 
+        </td>
+    </tr>
+    <tr>
+        <td>Pizza Topping</td>
+        <td>            
+            <input type="radio" name="Pizza Topping" id="Supreme" value="Supreme">
+            <label for="Supreme">Supreme</label>
+            <br>
+            <input type="radio" name="Pizza Topping" id="Vegetarian" value="Vegetarian">
+            <label for="Vegetarian">Vegetarian</label>
+            <br>
+            <input type="radio" name="Pizza Topping" id="Hawaiian" value="Hawaiian">
+            <label for="Hawaiian">Hawaiian</label>
+        </td>
+    </tr>
+    <tr>
+        <td>Pizza Sauce</td>
+        <td>
+            <label for="Suace"></label>
+            <select name="Sauce" id="Suace">
+                <option value="Tomato">Tomato</option>
+                <option value="Chilli">Chilli</option>
+                <option value="Mayonnaise">Mayonnaise</option>
+                <option value="Curry">Curry</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td>Optional Extra</td>
+        <td>
+            <input type="checkbox" id="Extra1" name="Extra1" value="+cheese">
+            <label for="Extra1">Extra Cheese</label>
+            <input type="checkbox" id="Extra1" name="Extra2" value="+gulten">
+            <label for="Extra2">Gluten Free Base</label>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            <p>Delivery Instruction</p>
+            <textarea name="Delivery Instruction" id="Delivery" cols="60" rows="10"></textarea>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            <input type="submit" value="Send my Order">
+            <input type="reset">
+        </td>
+    </tr>
+</table>    
+</body>
+</html>

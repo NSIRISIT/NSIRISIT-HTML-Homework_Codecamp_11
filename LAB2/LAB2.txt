@@ -1,0 +1,27 @@
+1. ค้นหาข้อมูลว่าแท็ก <!doctype> มีหน้าที่อะไร? (5 นาที)
+Answer 
+	ตั้งแต่ HTML ver5 ขึ้นไป <!doctype> ทำหน้าที่ให้ web browser รู้ว่า ข้อมูลที่เขียนลงไปต่อจาก <!doctype> นั้น เขียนขึ้นสำหรับ HTML ver5 ที่มีการอัพเดท future ใหม่ที่ไม่มี HTMLรุ่นเก่า
+	จาก w3s ได้อธิบายไว้ว่า
+	“All HTML documents must start with a <!DOCTYPE> declaration.
+The declaration is not an HTML tag. It is an "information" to the browser about what document type to expect.”
+
+2. ถ้าอยากให้มี tooltip ใน tag นั้นต้องใช้ attribute ใด? (3นาที) *tooltip คือข้อความเล็กๆ ที่แสดงเมื่อเลื่อน mouse ไปวางบนบริเวณที่ระบุ 
+Answer
+ 	tooltip คือข้อความสั้นมีไว้เพื่ออธิบายหรือขยายความหมายข้อความ สัญลักษณ์ หรือสิ่งอื่นๆ
+      อธิบายโดยใช้  attribute “——” หรือ Title=“———”
+
+
+
+3. แท็ก <b>, <i> ต่างจาก <strong>, <em> หรือไม่ อย่างไร? (5 นาที)
+Answer
+	แตกต่างกันตรงที่ Tag <b>,<i> มีไว้แสดงความสำคัญของข้อความแต่ไม่มากเท่า tag <strong>,<em> ที่มีไว้ใช้กับข้อความสำคัญๆ มากกว่า
+
+
+
+4. หา tag ที่สามารถแสดงข้อความกลับหลังได้ เช่น โปรแกรมเมอร์ แสดงเป็น ร์อมเมรกแรปโ
+Answer
+	<bdo> tag ซึ่งย่อมาจากคำว่า Bi-Directional Override
+	ยกตัวอย่าง <p><bdo dir=“rtf”>โปรแกรมเมอร์</bdo></p> ===ข้อความที่แสดงผล===> ร์อมเมรกแรปโ 
+
+Codecamp_11
+Name : Natthapong Sirisit

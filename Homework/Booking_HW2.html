@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        table, td,th {
+            border: 1px hidden; 
+            text-align: left; 
+            border-collapse: collapse;
+            padding: 10px;
+        }
+    </style>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Homework2</title>
+</head>
+<form action="./Thai_Airways.php">
+
+<body>
+    <table>
+        <tr>
+            <th colspan="2">Flying From</th>
+            <th colspan="2">To</th>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <form>
+                    <label for="from"></label>
+                    <input type="text" name="from" id="from">
+                </form>
+            </td>
+            <td colspan="2">
+                <form>
+                    <label for="to"></label>
+                    <input type="text" name="to" id="to">
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <th colspan="2">Departing</th>
+            <th colspan="2">Returning</th>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <form>
+                    <label for="Depart"></label>
+                    <input type="date" name="Depart" id="Depart" >
+                </form>
+            </td>
+            <td colspan="2">
+                <form>
+                    <label for="Return"></label>
+                    <input type="date" name="Return" id="Return" >
+
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <th>Adult</th>
+            <Th>Child</Th>
+            <th>Infant</th>
+            <th>Curreny</th>
+        </tr>
+        <tr>
+            <td>
+                <label for="Adult"></label>
+                <input type="number" id="Adult" name="Adult" min="0">
+            </td>
+            <td>
+                <label for="Child"></label>
+                <input type="number" id="Child" name="Child" min="0">
+            </td>
+            <td>
+                <label for="Infant"></label>
+                <input type="number" id="Infant" name="Infant" min="0">
+            </td>
+            <td>
+                <label for="Currency"></label>
+                    <select name="Currency" id="Currency">]
+                         <option value="Baht">THB</option>
+                         <option value="US Dollar">USD</option>
+                         <option value="Euro">EUR</option>
+                     </select>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="4">
+                <input type="submit" value="Search">
+            </td>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>
